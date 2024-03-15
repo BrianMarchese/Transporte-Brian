@@ -34,13 +34,19 @@
           class="md:flex md:items-center md:z-auto md:static absolute bg-slate-200 w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500"
         >
           <li class="mx-3 my-6 md:my-0">
-            <a href="#nosotros" class="hover:text-cyan-500 duration-500">Nosotros</a>
+            <a href="#nosotros" class="hover:text-cyan-500 duration-500"
+              >Nosotros</a
+            >
           </li>
           <li class="mx-3 my-6 md:my-0">
-            <a href="#" class="hover:text-cyan-500 duration-500">Servicios</a>
+            <a href="#servicios" class="hover:text-cyan-500 duration-500"
+              >Servicios</a
+            >
           </li>
           <li class="mx-3 my-6 md:my-0">
-            <a href="#" class="hover:text-blue-700 duration-500">ABOUT</a>
+            <a href="#ubicacion" class="hover:text-blue-700 duration-500"
+              >Donde Estamos</a
+            >
           </li>
           <li class="mx-3 my-6 md:my-0">
             <a href="#" class="hover:text-cyan-500 duration-500">CONTACT</a>
@@ -51,73 +57,105 @@
         </ul>
       </nav>
     </header>
-    <section class="hero relative overflow-hidden">
-      <div class="bg-cover bg-center h-screen flex flex-col-reverse lg:flex-row" style="background-image: url('/Camion-portada.PNG');">
-        <!-- Capa transparente encima de la imagen -->
-        <div class="bg-gray-800 bg-opacity-60 absolute inset-0"></div> 
-        <div class="container mx-auto h-full relative flex items-center ">
-          <div class="lg:w-[48%] text-center lg:text-left text-white">
-            <h1 class="mb-6 underline text-3xl text-[#62a68b]">
-              Bienvenido a Transporte Brian
-            </h1>
-            <p class="mb-6 md:max-w-lg">
-              Esperamos que disfrutes de nuestra página así como nosotros disfrutamos tanto de lo que nos gusta hacer a nosotros.
-            </p>
-            <button class="rounded-lg bg-blue-500 p-3">Contactanos</button>
+    <main>
+      <section class="hero relative overflow-hidden">
+        <div
+          class="bg-cover bg-center h-screen flex flex-col-reverse lg:flex-row"
+          style="background-image: url('/Camion-portada.PNG')"
+        >
+          <!-- Capa transparente encima de la imagen -->
+          <div class="bg-gray-800 bg-opacity-60 absolute inset-0"></div>
+          <div class="container mx-auto h-full relative flex items-center">
+            <div class="lg:w-[48%] text-center lg:text-left text-white">
+              <h1 class="mb-6 underline text-3xl text-[#62a68b]">
+                Bienvenido a Transporte Brian
+              </h1>
+              <p class="mb-6 md:max-w-lg">
+                Esperamos que disfrutes de nuestra página así como nosotros
+                disfrutamos tanto de lo que nos gusta hacer a nosotros.
+              </p>
+              <button class="rounded-lg bg-blue-500 p-3">Contactanos</button>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-    
-    
-    <section class="servicios" id="nosotros">
-      <!--GRID CONTAINER-->
-      <div class="container mx-auto mt-4 mb-10">
-        <h1
-        class="flex flex-col items-center text-center font-bold text-[#62a68b] "
-      >
-        NOSOTROS
-      </h1>
-      <div class="separador w-28 h-[3px] bg-blue-500 mb-3 mx-auto"></div>
-        <!--GRID-->
-        <div class="grid lg:grid-cols-3 gap-5 px-8 lg:px-0 text-white">
-          <!--GRID ITEM-->
-          <div class="bg-[#8aced6] p-[30px] rounded-[10px] shadow-xl min-h-[288px] flex flex-col items-center text-center"> 
-            <!--GRID ITEM ICON-->
-            <div class="mb-[15px]">
-              <img src="/proteger.svg" alt="">
+      </section>
+
+      <section id="servicios" class="servicios" id="nosotros">
+        <!--GRID CONTAINER-->
+        <div class="container mx-auto mt-4 mb-10">
+          <h1 class="text-center font-bold text-[#62a68b]">NOSOTROS</h1>
+          <div class="separador w-28 h-[3px] bg-blue-500 mb-3 mx-auto"></div>
+          <!--GRID-->
+          <div class="grid lg:grid-cols-3 gap-5 px-8 lg:px-0 text-white">
+            <!--GRID ITEM-->
+            <div
+              class="bg-[#8aced6] p-[30px] rounded-[10px] shadow-xl min-h-[288px] flex flex-col items-center text-center"
+            >
+              <!--GRID ITEM ICON-->
+              <div class="mb-[15px]">
+                <img src="/proteger.svg" alt="" />
+              </div>
+              <!--GRID ITEM TITLE-->
+              <h3 class="mb[10px] font-bold">Seguridad</h3>
+              <!--GRID ITEM DESCRIPTION-->
+              <p class="leading-normal max-w-[300px]">
+                Lorem ipsum dolor sit amet consectetur adipisicing amet elit.
+              </p>
             </div>
-            <!--GRID ITEM TITLE-->
-            <h3 class="mb[10px] font-bold">Seguridad</h3>
-            <!--GRID ITEM DESCRIPTION-->
-            <p class="leading-normal max-w-[300px]">Lorem ipsum dolor sit amet consectetur adipisicing amet elit.</p>
-          </div>
-          <div class="bg-[#8aced6] p-[30px] rounded-[10px] shadow-xl min-h-[288px] flex flex-col items-center text-center"> 
-            <!--GRID ITEM ICON-->
-            <div class="mb-[15px]">
-              <img src="/apreton-de-manos.svg" alt="">
+            <div
+              class="bg-[#8aced6] p-[30px] rounded-[10px] shadow-xl min-h-[288px] flex flex-col items-center text-center"
+            >
+              <!--GRID ITEM ICON-->
+              <div class="mb-[15px]">
+                <img src="/apreton-de-manos.svg" alt="" />
+              </div>
+              <!--GRID ITEM TITLE-->
+              <h3 class="mb[10px] font-bold">Seguridad</h3>
+              <!--GRID ITEM DESCRIPTION-->
+              <p class="leading-normal max-w-[300px]">
+                Lorem ipsum dolor sit amet consectetur adipisicing amet elit.
+              </p>
             </div>
-            <!--GRID ITEM TITLE-->
-            <h3 class="mb[10px] font-bold">Seguridad</h3>
-            <!--GRID ITEM DESCRIPTION-->
-            <p class="leading-normal max-w-[300px]">Lorem ipsum dolor sit amet consectetur adipisicing amet elit.</p>
-          </div>
-          <div class="bg-[#8aced6] p-[30px] rounded-[10px] shadow-xl min-h-[288px] flex flex-col items-center text-center"> 
-            <!--GRID ITEM ICON-->
-            <div class="mb-[15px]">
-              <img src="/proteger.svg" alt="">
+            <div
+              class="bg-[#8aced6] p-[30px] rounded-[10px] shadow-xl min-h-[288px] flex flex-col items-center text-center"
+            >
+              <!--GRID ITEM ICON-->
+              <div class="mb-[15px]">
+                <img src="/proteger.svg" alt="" />
+              </div>
+              <!--GRID ITEM TITLE-->
+              <h3 class="mb[10px] font-bold">Seguridad</h3>
+              <!--GRID ITEM DESCRIPTION-->
+              <p class="leading-normal max-w-[300px]">
+                Lorem ipsum dolor sit amet consectetur adipisicing amet elit.
+              </p>
             </div>
-            <!--GRID ITEM TITLE-->
-            <h3 class="mb[10px] font-bold">Seguridad</h3>
-            <!--GRID ITEM DESCRIPTION-->
-            <p class="leading-normal max-w-[300px]">Lorem ipsum dolor sit amet consectetur adipisicing amet elit.</p>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
+      <section>
+        <h2 class="text-[#62a68b] font-bold text-center">DONDE ESTAMOS</h2>
+        <div class="separador w-40 h-[3px] bg-blue-500 mb-3 mx-auto"></div>
+        <div
+          class="container mx-auto flex flex-col items-center justify-center relative w-full lg:w-[950px] h-96 mb-5"
+        >
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d107134.75303912298!2d-60.779039947329764!3d-32.952038204448684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b6539335d7d75b%3A0xec4086e90258a557!2sRosario%2C%20Santa%20Fe!5e0!3m2!1ses!2sar!4v1710525910687!5m2!1ses!2sar"
+            class="absolute top-0 left-0 w-full h-full"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            frameborder="0"
+            style="border: 0"
+            aria-hidden="false"
+            tabindex="0"
+            id="ubicacion"
+          ></iframe>
+        </div>
+      </section>
+    </main>
 
-    </section>
     <script src="./main.js"></script>
   </body>
 </html>
