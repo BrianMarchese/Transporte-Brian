@@ -40,7 +40,7 @@
           </li>
           <li class="mx-2 my-6 md:my-0">
             <a href="#ubicacion" class="hover:text-[#62a68b] duration-500"
-              >Donde Estamos</a
+              >Ubicacion</a
             >
           </li>
           <li class="mx-2 my-6 md:my-0">
@@ -66,7 +66,7 @@
               <p class="mb-6 md:max-w-lg font-medium text-lg">
                 Somos una empresa de transporte familiar fundada en el año 2003,
                 contamos con gran experiencia en el rubro y le ponemos el mayor
-                de nuestros esfuerzos para que siempre el cliente este contento
+                de nuestros esfuerzos para que siempre el cliente esté contento
                 y vuelva a confiar en nosotros.
               </p>
               <a href="#contacto">
@@ -134,7 +134,7 @@
               <p class="leading-normal max-w-[300px]">
                 Entendemos la importancia de la entrega oportuna. Con un
                 compromiso firme con la eficiencia, nos aseguramos de que tus
-                envíos lleguen a su destino puntualmente..
+                envíos lleguen a su destino puntualmente.
               </p>
             </div>
           </div>
@@ -253,6 +253,14 @@
         </div>
       </div>
     </footer>
-    <script src="./src/main.js"></script>
+    <script>
+     function Menu(e) {
+      let list = document.querySelector('ul');
+      e.name === 'menu' ? (e.name = "close", list.classList.add('top-[80px]'), list.classList.add('opacity-100')) : (e.name = "menu", list.classList.remove('top-[80px]'), list.classList.remove('opacity-100'))
+     }
+
+     document.getElementById("copyright").textContent = "Copyright © " + new Date().getFullYear() + " Brian Marchese. " + " Todos los derechos reservados "; 
+    </script>
+    <script type="module" src="./src/main.js"></script>
   </body>
 </html>
